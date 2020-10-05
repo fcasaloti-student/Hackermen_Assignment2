@@ -6,7 +6,7 @@ public class Group_hackermen {
 	private String groupDescription;
 	
 	public Group_hackermen() {
-
+		
 	}
 	public Group_hackermen(String groupName, String groupDescription) {
 		this.groupName = groupName;
