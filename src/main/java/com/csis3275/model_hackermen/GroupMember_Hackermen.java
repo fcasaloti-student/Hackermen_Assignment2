@@ -4,17 +4,14 @@ public class GroupMember_hackermen {
 	
 	private String name;
 	private String photo;
-	private String description;
 	
 	public GroupMember_hackermen(String name, String photo, String description) {
 		this.name = name;
 		this.photo = photo;
-		this.description = description;
 	}
 	public GroupMember_hackermen() {
 		this.name = "Hackermen";
 		this.photo = "./Placeholder.png";
-		this.description = "Men who hack";
 	}
 	
 	public String getName() {
@@ -31,14 +28,6 @@ public class GroupMember_hackermen {
 
 	public void setPhoto(String photo) {
 		this.photo = photo;
-	}
-
-	public String getDescription() {
-		return description;
-	}
-
-	public void setDescription(String description) {
-		this.description = description;
 	}
 
 }
