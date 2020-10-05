@@ -26,7 +26,7 @@ public class MemberController_hackermen {
 		GroupMember_hackermen member = new GroupMember_hackermen();
 		
 		String groupDesc = "We are a team of aspiring developers working together with the goal of developing a Hotel Management System software. "
-				+ "Our members come from business, development and infrastructure backgrounds, allowing us to contribute to different aspects of the development process, learning with each other to complete this challenge.";
+				+ "Our members come from business, development, and infrastructure backgrounds, allowing us to contribute to different aspects of the development process, learning with each other to complete this challenge.";
 		
 		//Instantiate each member
 		Group_hackermen group = new Group_hackermen("Hackermen", groupDesc);
