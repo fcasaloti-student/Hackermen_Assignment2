@@ -9,6 +9,7 @@ public class GroupMember_hackermen {
 		this.name = name;
 		this.photo = photo;
 	}
+	//test
 	public GroupMember_hackermen() {
 		this.name = "Hackermen";
 		this.photo = "./Placeholder.png";
