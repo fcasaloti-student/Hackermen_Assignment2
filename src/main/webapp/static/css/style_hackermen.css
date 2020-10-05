@@ -1,0 +1,26 @@
+img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 200px;
+}
+table {
+ 	text-align: center;
+	width:50%;
+	margin: 0 auto;
+}
+#description {
+	text-align: justify;
+	font-size: 24px;
+}
+div {
+	text-align:center;
+}
+body {
+	width: 100%;
+}
+h1 {
+	margin-top: 20px;
+	text-align:center;
+}

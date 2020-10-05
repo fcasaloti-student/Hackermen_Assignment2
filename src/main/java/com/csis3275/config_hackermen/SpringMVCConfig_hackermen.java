@@ -9,6 +9,7 @@ import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
@@ -21,7 +22,8 @@ import org.springframework.web.servlet.view.JstlView;
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = "com.csis3275")
-public class SpringMVCConfig_hackermen extends WebMvcConfigurationSupport {
+//public class SpringMVCConfig_hackermen extends WebMvcConfigurationSupport {
+public class SpringMVCConfig_hackermen implements WebMvcConfigurer {
 
 	// View, this class resolves the view name to the .jsp file.
 	@Bean
@@ -45,6 +47,7 @@ public class SpringMVCConfig_hackermen extends WebMvcConfigurationSupport {
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 
-		registry.addResourceHandler("/static/**").addResourceLocations("/static/");
+		registry.addResourceHandler("/static/**")
+			.addResourceLocations("/static/");
 	}
 }
