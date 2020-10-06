@@ -12,7 +12,7 @@ public class Daniil_dvo_70 extends GroupMember_hackermen {
 	}
 	
 	public Daniil_dvo_70() {
-		super("Daniil", "./static/images/Daniil.jpg");
+		super("Daniil", "./static/images/Daniil.png");
 	}
 
 }

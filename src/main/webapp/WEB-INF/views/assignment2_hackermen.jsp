@@ -14,9 +14,9 @@
 	<div>
 		<table>
 			<tr>
-				<td><img src="${member.photo}" alt="Team member">
-				<img src="${member.photo}" alt="Team member">
-				<img src="${member.photo}" alt="Team member"></td>
+				<td><img src="${daniil.photo}" alt="${daniil.name}">
+				<img src="${fabio.photo}" alt="${fabio.name}">
+				<img src="${fernando.photo}" alt="${fernando.name}"></td>
 			</tr>
 			<tr>
 				<td id="description"><br>${group.groupDescription}</td>
