@@ -11,7 +11,7 @@ public class GroupMember_hackermen {
 	
 	/**
 	 * Class Constructors, with a default option with no arguments and an option initializing groupName and groupDescription */
-	public GroupMember_hackermen(String name, String photo, String description) {
+	public GroupMember_hackermen(String name, String photo) {
 		this.name = name;
 		this.photo = photo;
 	}
